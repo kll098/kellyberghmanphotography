@@ -192,10 +192,10 @@ img {
     border-radius: 4px;
     display: inline-block;
     
-    font-size: 12px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 5px;
-    padding: 10px 22px;
+    padding: 13px 22px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
     background: #fff;
