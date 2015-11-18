@@ -13,7 +13,7 @@
 #mobile {
         padding: 5em 22em;
         background-color: rgba(29,155,108, 0.4);
-
+        display: none;
 }
 
 
@@ -194,6 +194,14 @@ h2 {
 
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
+    }
+    
+    #mobile {
+        display: block;
+    }
+    
+    #werking {
+        display: none;
     }
     
     .btn-circle {
