@@ -173,6 +173,14 @@ h2 {
     #werking, #mobile {
        padding: 5em 9em;
     }
+    
+    #mobile {
+        display: block;
+    }
+    
+    #werking {
+        display: none;
+    }
 }
 
 @media(max-width:767px) {
