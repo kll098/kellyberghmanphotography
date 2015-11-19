@@ -181,6 +181,14 @@ h2 {
     #werking {
         display: none;
     }
+    
+    #mobile em {
+        font-size: 27px;
+    }
+    
+    #mobile p {
+        font-size: 25px;
+    }
 }
 
 @media(max-width:767px) {
@@ -192,6 +200,14 @@ h2 {
     
     #werking, #mobile {
        padding: 5em 5em;
+    }
+    
+    #mobile em {
+        font-size: 27px;
+    }
+    
+    #mobile p {
+        font-size: 25px;
     }
 
     ul.banner-social-buttons > li {
