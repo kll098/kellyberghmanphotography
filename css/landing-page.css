@@ -17,6 +17,7 @@
 }
 
 
+
 #werking em, #mobile em {
     font-size: 18px;
     font-weight: bold;
@@ -183,12 +184,13 @@ h2 {
     }
     
     #mobile em {
-        font-size: 27px;
+        font-size: 23px;
     }
     
     #mobile p {
-        font-size: 25px;
+        font-size: 19px;
     }
+
 }
 
 @media(max-width:767px) {
@@ -196,7 +198,7 @@ h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 4em;
-        width: 400px;
+        width: 100%;
     }
     
     #werking, #mobile {
@@ -204,11 +206,11 @@ h2 {
     }
     
     #mobile em {
-        font-size: 27px;
+        font-size: 23px;
     }
     
     #mobile p {
-        font-size: 25px;
+        font-size: 19px;
     }
 
     ul.banner-social-buttons > li {
@@ -228,6 +230,12 @@ h2 {
     #werking {
         display: none;
     }
+    
+
+  #trala {
+       display: none;
+   }
+
     
     .btn-circle {
  width: 110px;
