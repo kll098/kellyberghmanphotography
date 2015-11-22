@@ -4,7 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
+* {
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  user-select: none; 
+}
 #werking {
     padding: 5em 22em;
     background-color: rgba(29,155,108, 0.4);
@@ -96,7 +101,7 @@
 
 .network-name {
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 23px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -154,6 +159,8 @@ h2 {
         padding-top: 20px;
     }
 }
+
+
 @media(max-width:1199px) and (min-width:1028px) {
 /*
     ul.banner-social-buttons {
@@ -168,6 +175,10 @@ h2 {
     }
     #werking, #mobile {
        padding: 5em 9em;
+    }
+    
+    .network-name {
+        font-size: 29px;
     }
 }
 
@@ -249,9 +260,7 @@ h2 {
     .container h2 {
         text-align: center;
     }
-  #trala {
-       display: none;
-   }
+
 
     
     .btn-circle {
