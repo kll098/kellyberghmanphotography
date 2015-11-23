@@ -225,7 +225,7 @@ h2 {
 
 }
 
-@media(max-width:767px) {
+@media(max-width:767px) and (min-width:652px) {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -296,10 +296,64 @@ h2 {
     .network-name {
         font-size: 30px;
     }
-    
-    .banner h2 {
+
+        .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
+        width: 100%;
+            text-align: center;
     }
+    
+    #werking, #mobile {
+       padding: 3em 3em;
+    }
+    
+    #mobile em {
+        font-size: 23px;
+    }
+    
+    #mobile p {
+        font-size: 19px;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 30px;
+    }
+    
+  
+  
+    #mobile {
+        display: block;
+    }
+    
+    #werking {
+        display: none;
+    }
+        
+    .btn-circle {
+ width: 110px;
+ height: 110px;
+ margin-top: 15px;
+ /* padding: 21px 16px; */
+ border: 11px solid #fff;
+ border-radius: 100%!important;
+ font-size: 67px;
+ color: #fff;
+ background: 0 0;
+ -webkit-transition: background .3s ease-in-out;
+ -moz-transition: background .3s ease-in-out;
+ transition: background .3s ease-in-out;
+}
 }
 
 footer {
