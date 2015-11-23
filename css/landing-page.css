@@ -257,7 +257,8 @@ h2 {
     }
     
     #mobile_about img {
-    width: 22%;
+    width: 79%;
+    float: left;
     }
     
     #about {
@@ -270,7 +271,8 @@ h2 {
 }
     
     #mobile_about p {
-        font-size: 20px;
+        font-size: 25px;
+        float: left;
     }
 
 }
@@ -292,7 +294,7 @@ h2 {
     }
     
     #mobile p {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     ul.banner-social-buttons > li {
@@ -439,7 +441,7 @@ h2 {
 }
     
     #mobile_about p {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
