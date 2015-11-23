@@ -49,12 +49,20 @@
     clear: both;
 }
 
-#about {
+#about, #mobile_about {
 margin: 5em 0 1em 9em;    
+}
+
+#mobile_about {
+    display: none;
 }
 
 #about img {
     width: 13%;
+    float: left;
+}
+
+#mobile_about {
     float: left;
 }
 
@@ -200,6 +208,12 @@ h2 {
     .network-name {
         font-size: 29px;
     }
+    
+    #about img {
+    width: 17%;
+    }
+    
+    
 }
 
 @media(max-width:1027px) and (min-width:768px) {
@@ -240,6 +254,23 @@ h2 {
     
     .banner-social-buttons {
         float: left;
+    }
+    
+    #mobile_about img {
+    width: 22%;
+    }
+    
+    #about {
+        display: none;
+    }
+    
+    #mobile_about {
+    margin: 5em 0 1em 2em;
+    display: block;
+}
+    
+    #mobile_about p {
+        font-size: 20px;
     }
 
 }
@@ -309,6 +340,26 @@ h2 {
  -moz-transition: background .3s ease-in-out;
  transition: background .3s ease-in-out;
 }
+    
+
+    
+     #mobile_about img {
+    width: 52%;
+    }
+    
+    #about {
+        display: none;
+    }
+    
+    #mobile_about {
+    margin: 5em 0 1em 2em;
+    display: block;
+}
+    
+    #mobile_about p {
+        font-size: 20px;
+    }
+    
 }
 
 @media(max-width:651px) {
@@ -373,6 +424,23 @@ h2 {
  -moz-transition: background .3s ease-in-out;
  transition: background .3s ease-in-out;
 }
+    
+       #mobile_about img {
+    width: 74%;
+    }
+    
+    #about {
+        display: none;
+    }
+    
+    #mobile_about {
+    margin: 5em 0 1em 2em;
+    display: block;
+}
+    
+    #mobile_about p {
+        font-size: 20px;
+    }
 }
 
 footer {
