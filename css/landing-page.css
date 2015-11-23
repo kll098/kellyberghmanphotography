@@ -296,7 +296,12 @@ h2 {
     .network-name {
         font-size: 30px;
     }
+    
+    .banner h2 {
+        font-size: 3em;
+    }
 }
+
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
