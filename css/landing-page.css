@@ -45,6 +45,25 @@
     font-weight: 400;
 }
 
+.clear {
+    clear: both;
+}
+
+#about {
+margin: 5em 0 1em 9em;    
+}
+
+#about img {
+    width: 13%;
+    float: left;
+}
+
+#about p {
+float: left;
+    width: 70%;
+    margin-left: 2em;
+}
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
