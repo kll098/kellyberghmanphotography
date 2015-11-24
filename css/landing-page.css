@@ -72,6 +72,12 @@ float: left;
     margin-left: 2em;
 }
 
+hr {
+    margin: 3em 10em 0;
+    color: black;
+    display: block;
+}
+    
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -362,6 +368,10 @@ h2 {
         font-size: 20px;
     }
     
+    hr {
+    display: none;
+}
+    
 }
 
 @media(max-width:651px) {
@@ -443,6 +453,9 @@ h2 {
     #mobile_about p {
         font-size: 25px;
     }
+    hr {
+    display: none;
+}
 }
 
 footer {
@@ -453,3 +466,4 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
