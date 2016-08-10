@@ -50,10 +50,7 @@ background-image:none;
      .welcome-text h2{
         font-size:34px;
     }
-   #home {
-        height:80%;
-        min-height: 80%;
-    }
+
 }
 
 @media (min-width: 768px){
