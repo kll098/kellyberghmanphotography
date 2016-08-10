@@ -116,13 +116,7 @@ max-width:800px;
 background:url(../img/demo-images/parallax-bg.jpg) no-repeat fixed center top;
 /*background-size*/
     
-    <!--
--webkit-background-size:/*@@prefixmycss->No equivalent*/;
-   -moz-background-size:cover;
-     -o-background-size:/*@@prefixmycss->No equivalent*/;
-        background-size:cover;
-    
-    -->
+
 }
 .home-parallax, .parallax-bg, #parallax-bg2{
 height:100%;
