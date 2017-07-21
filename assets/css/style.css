@@ -26,6 +26,9 @@ img {
   height: auto;
 }
 
+#margin-index {
+    margin-right:2em;
+}
 iframe {
   border: 0;
 }
@@ -2885,8 +2888,8 @@ Google map
     font-size: 26px;
   }
   .titan-title-size-4 {
-    letter-spacing: 6px;
-    font-size: 28px;
+    letter-spacing: 0px;
+    font-size: 61px;
   }
   /* Features */
   .features-item {
@@ -2964,6 +2967,14 @@ Google map
     
     #filmpje {
         display: none;
+    }
+    
+    #beschrijving {
+        font-size: 9pt;
+    }
+    
+    #margin-index {
+        margin: 0 0 1em 0;
     }
     
 }
