@@ -2976,5 +2976,21 @@ Google map
     #margin-index {
         margin: 0 0 1em 0;
     }
+    .module-subtitle {
+        margin-bottom: 0;
+    }
+    .large-text {
+    font-size: 16px !important;
+}
+    .landing-image-text {
+     padding-top: 0px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    .testimonial-text {
+        font-size: 13px;
+    }
     
 }
