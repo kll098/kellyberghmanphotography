@@ -14,6 +14,10 @@ html {
   -ms-overflow-style: scrollbar;
 }
 
+.displaynone {
+    display: block;
+}
+
 body {
   background: #fff;
   font: 400 12px/1.8 "Open Sans", sans-serif;
@@ -2992,5 +2996,7 @@ Google map
     .testimonial-text {
         font-size: 13px;
     }
-    
+    .displaynone {
+    display: none;
+}
 }
